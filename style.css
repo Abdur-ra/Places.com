@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dongle:wght@300&family=Spartan&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.main_body{
+  background-image: linear-gradient(to left ,  #F58529, #FEDA77, #DD2A7B, #8134AF, #515BD4);
+  height: 400px;
+  margin: 20px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.instagram_title{
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  font-size: 100px;
+  letter-spacing:  15px;
+}
+.main_title{
+  font-family: 'Dongle', sans-serif;
+  color: black;
+  text-align: center;
+  letter-spacing: 4px;
+  text-decoration: underline overline;
+  padding: 10px 0px;
+  font-size: 100px;
+}
+
+.card{
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  border: solid 2px #878686;
+  margin: 20px;
+  box-shadow:  0 0 7px #878686;
+  font-family: 'Spartan', sans-serif;
+}
+
+img{
+  width: 100%;
+  border-radius: 30px;
+  padding: 10px 0px;
+}
+p{
+  font-size: 18px;
+}
+button{
+  padding: 10px 60px;
+  border-radius: 20px;
+  color: white;
+  background-color: lightblue;
+  border: solid 2px black;
+  margin: 10px 0px;
+  background-image: linear-gradient(to left , #DD2A7B, #8134AF, #515BD4);
+  cursor: pointer;
+}
+.main_grid{
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  gap: 10px;
+  margin: 30px 46px;
+}
+
